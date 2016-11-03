@@ -1,0 +1,34 @@
+Data Processing
+
+Processing Sequential Data
+
+Ex. The postive integers
+
+The sequence interface we used before does not always apply
+
+- A sequence has a finite, known length
+
+- A sequence allows selection for any element
+
+Big Data Processing:
+
+- Implicit representations of streams of sequential data
+
+- Declarative Programming lanuages to manipulated and transform data
+
+- Distributed computing
+
+Implicit Sequences
+
+An implicit sequence is a representation of sequential data that does not explicitly store each element
+
+ex. built-in range class
+
+   range two values: start and end
+
+   The length and element are computed on demand
+
+   Constant memory for arbitary long sequence 
+
+   Constant space for ar
+

@@ -1,0 +1,23 @@
+Data Abstraction
+
+A methodology by which functions enforce an abstraction barrier between represenation and use
+
+Parts of program that                Treat rationals as           Using
+
+1. Implement selectors and 	     two-element lists   list literals and element selection
+   constructor for object
+
+2.  Create object or implement      numerators and denominators    rational, numer, denom
+   object operations
+
+3.  Use object to preform           whole data values        add_rational, multi_rational
+    action                                                     rationals_are_equal,    
+
+
+What is Data?
+
+   Constructor and Selector functions work together to specify the right behavior
+
+   Behavior condition: x= rational(n, d) then numer(x)/denom(x) must equal n/d
+
+   Data ab

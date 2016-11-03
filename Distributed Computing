@@ -1,0 +1,34 @@
+Unix
+
+Computer System
+
+Systems research enables application development by defining and implementing abstractions:
+
+  Operating Systems provide a stable, consistent interface to unreliable hardware
+
+  Networds provide a robust data transfer interface communications infrastructure
+  
+  Databases rpovide a declarative interface to complex software and store information
+
+  Distributed systems provide a unified interface to cluster of multiple machines
+
+A unifying property of effective systems;
+  
+  Hide Complexity, but retain flexibility
+
+Unix Operating System
+
+- Protability: The same operating system on different hardware
+- Multi-Tasking: Many processes run concurrently on a machine
+- Plain Text: Data is stored and shared in text format
+- Modularity: Small tools are composed flexibly via pipes
+
+standard inputs ->process :-standard error -> standard output
+
+Standard streams similar to Python iterators
+
+Python Programs in Unix Environment
+
+Built-in iput reads a line from standard input, print function write a line to standard output
+
+sys.stdin and sys.stdout values provide access to the Unix Standard Stream as files

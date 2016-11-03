@@ -1,0 +1,63 @@
+Machine language: statements are interpreted by the hardware itself
+
+A fixted set of instructions invoke operations implemented by the CPU
+
+Operations refer to specific hardware memory address; no abstraction mechanisms
+
+High-Level language: statements & expressions are interpreted by another program or compiled into another lanuage
+
+Provide means of abstraction such as naming, function definition, and objects
+
+Abstract away system details to be independent of hardware and operating system
+
+Metalinguistic Abstraction
+
+A Powerful form of abstraction is to define a new lanuage that is tailored to a particular type of application or problem domain
+
+Type of application: Erland was designed for concurrent programs. It has built-in elements for expressing concurrent communication.
+
+A programming lanuage has:
+  
+   Syntax: The legal statements and expressions in the lanuage
+
+   Semantics: the execution/evaluation rule for hose statements and expressions
+
+To create a new programming lanuage, either:
+  
+   Specification: A document describe the precise syntax and semantics of the lanuage
+
+   Canonical Implementation: An interpreter or compiler for the language
+
+The Struture of an Interpreter
+
+Eval Base cases: Premitive values(numbers)
+                 
+     Recursive calls: Eval of call expressions
+
+                 Apply( procedure, arguements)
+
+-> Apply Base Cases  Built-in primitive procedures
+
+Dynamic Scoping
+
+The way in which names are looked up in Python is called lexical scope (static scope)
+
+See what names are in scope by inspecting the defnition.
+
+Lexical Scope: The parent of a frame is the environment in which a procedure was defined
+
+Dynamic scope: The parent of a frame is the environment in which a procedure was called
+
+define mu f(x): x+y                  mu procedure for dynamic scope, lambda static scope
+
+define lambda g(x, y): f(x+x)
+
+g( 3, 7)  
+
+lexical scope: The parent for f's frame is the global  Error: unkown y
+
+dynamic scope: The parent for f's frame is g's frame
+
+
+
+

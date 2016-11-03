@@ -1,0 +1,41 @@
+Database management systems (DBMS)
+
+A table is a collection of records, which are rows that have a value for each column
+
+Structured Query Lanuage(SQL) is a declarative programming lanuage
+
+Declarative Programming
+
+A "program" is a description of the desired result
+
+-The interpreter figures out how to generate the result
+
+Imperative lanuage
+
+A "program" is a description of computational process
+
+-The interpreter carries out execution/evaluation rules
+
+SQL Overview
+
+A select stement creates a new table, either from scratch or by projecting a table
+
+A create table statement gives a global name to a table
+
+A select statment always includes a comma-separated list of column descriptions
+
+A column description is an expression, optionally followed by as and a column name
+
+   select [expression] as [name], [expression] as [name]
+
+A create table statement gives the result a name 
+
+   create table [name] as [select statement];
+
+Select statement can specify an input table using a from clause
+
+
+
+
+
+
